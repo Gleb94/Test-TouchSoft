@@ -1,5 +1,6 @@
+// №1
+
 const someFn = "пиТе";  
- 
 function change_register(someFn) {
 let new_someFn = "";
 let len = someFn.length;
@@ -13,4 +14,20 @@ let len = someFn.length;
   return new_someFn;
 }
 
-document.writeln(change_register(someFn)); 
+document.writeln(change_register(someFn));
+
+// №2
+
+function sayHello(name){
+  if(name === 'Mark'){
+    console.log("hi")
+  }else{
+    console.log("hello")
+  }
+}
+
+sayHello('Mark')
+
+// №3 
+
+
